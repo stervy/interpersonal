@@ -5,8 +5,9 @@ import { Separator } from "@/components/ui/separator"
 
 const footerLinks = {
   product: [
-    { name: "Practice Directory", href: "/practice" },
-    { name: "Blog", href: "/blog" },
+    { name: "Skills & Insights", href: "/blog" },
+    { name: "T-Groups", href: "/t-groups" },
+    { name: "Professional Support", href: "/practice" },
     { name: "About", href: "/about" },
   ],
   support: [
@@ -24,7 +25,7 @@ export function Footer() {
             <div className="col-span-1 md:col-span-2">
               <Logo />
               <p className="mt-4 text-sm text-muted-foreground max-w-md">
-                Building stronger connections through meaningful interpersonal practices and resources.
+                Develop essential interpersonal skills through expert insights, practical techniques, and professional support. Master communication, emotional intelligence, and authentic connection.
               </p>
             </div>
             <div>

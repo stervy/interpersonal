@@ -8,6 +8,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react"
 import { format } from "date-fns"
 import { getAllPosts, getPostBySlug } from "@/lib/blog"
 import { MDXRemote } from "next-mdx-remote/rsc"
+import { ArticleSchema } from "@/components/structured-data"
 
 interface PostPageProps {
   params: {
@@ -57,6 +58,14 @@ export default function PostPage({ params }: PostPageProps) {
 
   return (
     <>
+      <ArticleSchema
+        title={post.title}
+        description={post.description}
+        datePublished={post.date}
+        author={post.author}
+        url={post.url}
+        tags={post.tags}
+      />
       <Section>
         <Container>
           <article className="mx-auto max-w-3xl">

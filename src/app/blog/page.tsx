@@ -5,10 +5,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { format } from "date-fns"
 import { getAllPosts } from "@/lib/blog"
+import { BlogSchema } from "@/components/structured-data"
 
 export const metadata = {
-  title: "Blog",
-  description: "Insights and perspectives on building interpersonal connections and relationships.",
+  title: "Interpersonal Skills Blog - Expert Insights & Guides",
+  description: "Learn essential interpersonal skills through expert articles on communication, emotional intelligence, conflict resolution, active listening, and building meaningful relationships.",
 }
 
 export default function BlogPage() {
@@ -21,14 +22,15 @@ export default function BlogPage() {
 
   return (
     <>
+      <BlogSchema />
       <Section className="bg-gradient-to-b from-brand-accent/30 to-background pt-8">
         <Container>
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h1 className="font-serif text-4xl md:text-5xl font-bold text-brand-ink mb-4">
-              Blog
+              Interpersonal Skills Insights & Guides
             </h1>
             <p className="text-lg text-muted-foreground">
-              Insights and perspectives on building interpersonal connections and relationships.
+              Expert articles and practical techniques for developing communication, emotional intelligence, and relationship-building skills.
             </p>
           </div>
         </Container>

@@ -1,0 +1,65 @@
+{
+  "tgroups": [
+    {
+      "id": "stanford-tgroup",
+      "name": "Stanford T-Group",
+      "organization": "Stanford Graduate School of Business",
+      "description": "An intensive week-long experiential learning program focused on interpersonal dynamics, emotional intelligence, and leadership development. Participants engage in unstructured group sessions to explore communication patterns, group dynamics, and self-awareness.",
+      "format": "In-person residential",
+      "duration": "One week intensive",
+      "location": "Stanford, CA",
+      "frequency": "Annual (Summer)",
+      "cost": "$$$$",
+      "tags": ["Leadership", "Group Dynamics", "Emotional Intelligence", "Intensive"],
+      "website": "https://www.gsb.stanford.edu/exec-ed/programs/interpersonal-dynamics",
+      "applicationRequired": true,
+      "skillsFocus": ["Group dynamics", "Leadership", "Self-awareness", "Feedback skills"]
+    },
+    {
+      "id": "leaders-in-tech",
+      "name": "Leaders in Tech T-Group",
+      "organization": "Leaders in Tech",
+      "description": "A T-group program specifically designed for tech leaders and entrepreneurs. Focuses on authentic leadership, vulnerability, and building genuine connections in high-stakes environments. Small cohorts of 8-12 participants.",
+      "format": "Hybrid (in-person + virtual)",
+      "duration": "6 months",
+      "location": "San Francisco Bay Area",
+      "frequency": "Multiple cohorts per year",
+      "cost": "$$$",
+      "tags": ["Tech Leaders", "Authentic Leadership", "Entrepreneurship", "Cohort-based"],
+      "website": "https://leadersintech.com",
+      "applicationRequired": true,
+      "skillsFocus": ["Authentic leadership", "Vulnerability", "Decision-making", "Peer support"]
+    },
+    {
+      "id": "juncture",
+      "name": "Juncture T-Group Program",
+      "organization": "Juncture",
+      "description": "Ongoing T-group experiences for professionals seeking deeper self-awareness and interpersonal effectiveness. Combines classic T-group methodology with contemporary practices. Small groups meet regularly over several months.",
+      "format": "In-person",
+      "duration": "3-6 months",
+      "location": "Multiple cities (SF, NYC, LA)",
+      "frequency": "Rolling admissions",
+      "cost": "$$",
+      "tags": ["Professional Development", "Self-awareness", "Ongoing", "Small Groups"],
+      "website": "https://juncture.co",
+      "applicationRequired": false,
+      "skillsFocus": ["Self-awareness", "Interpersonal effectiveness", "Presence", "Authenticity"]
+    },
+    {
+      "id": "nti-tgroup",
+      "name": "NTL Institute T-Group",
+      "organization": "NTL Institute",
+      "description": "The original T-group experience from the founders of the methodology. Offers various programs from weekend workshops to week-long intensives. Focus on applied behavioral science and organizational development.",
+      "format": "In-person",
+      "duration": "Weekend to 1 week",
+      "location": "Various locations",
+      "frequency": "Multiple times per year",
+      "cost": "$$$",
+      "tags": ["Classic T-Group", "Behavioral Science", "Organizational Development", "Veteran Facilitators"],
+      "website": "https://www.ntl.org",
+      "applicationRequired": false,
+      "skillsFocus": ["Group process", "Change management", "Interpersonal awareness", "Systems thinking"]
+    }
+  ]
+}
+

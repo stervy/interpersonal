@@ -3,6 +3,7 @@ import { Inter, Source_Serif_4 } from "next/font/google"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { TooltipProvider } from "@/components/ui/tooltip"
+import { OrganizationSchema, WebsiteSchema } from "@/components/structured-data"
 import "./globals.css"
 
 const inter = Inter({
@@ -21,19 +22,26 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL("https://interpersonal.com"),
   title: {
-    default: "Interpersonal - Building Stronger Connections",
+    default: "Interpersonal - Master the Art of Human Connection",
     template: "%s | Interpersonal",
   },
   description:
-    "Discover meaningful practices and resources to build stronger interpersonal connections and relationships.",
+    "Develop essential interpersonal skills through expert insights, practical exercises, and curated resources. Learn communication, emotional intelligence, conflict resolution, and relationship-building skills.",
   keywords: [
-    "interpersonal",
-    "relationships",
-    "communication",
+    "interpersonal skills",
+    "communication skills",
+    "emotional intelligence",
+    "relationship skills",
+    "social skills",
+    "active listening",
+    "conflict resolution",
+    "empathy",
     "connection",
-    "practices",
+    "personal development",
+    "soft skills",
+    "people skills",
     "therapy",
-    "support groups",
+    "coaching",
   ],
   authors: [{ name: "Interpersonal" }],
   creator: "Interpersonal",
@@ -41,25 +49,26 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://interpersonal.com",
-    title: "Interpersonal - Building Stronger Connections",
+    title: "Interpersonal - Master the Art of Human Connection",
     description:
-      "Discover meaningful practices and resources to build stronger interpersonal connections and relationships.",
+      "Develop essential interpersonal skills through expert insights, practical exercises, and curated resources. Learn communication, emotional intelligence, and relationship-building skills.",
     siteName: "Interpersonal",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Interpersonal",
+        alt: "Interpersonal - Interpersonal Skills Development",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Interpersonal - Building Stronger Connections",
+    title: "Interpersonal - Master the Art of Human Connection",
     description:
-      "Discover meaningful practices and resources to build stronger interpersonal connections and relationships.",
+      "Develop essential interpersonal skills through expert insights, practical exercises, and curated resources.",
     images: ["/og-image.png"],
+    creator: "@interpersonal",
   },
   robots: {
     index: true,
@@ -72,6 +81,11 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  alternates: {
+    types: {
+      "application/rss+xml": "https://interpersonal.com/rss.xml",
+    },
+  },
 }
 
 export default function RootLayout({
@@ -81,6 +95,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${sourceSerif.variable}`}>
+      <head>
+        <OrganizationSchema />
+        <WebsiteSchema />
+      </head>
       <body className="min-h-screen flex flex-col">
         <TooltipProvider>
           <Header />

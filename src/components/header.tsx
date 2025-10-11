@@ -7,8 +7,9 @@ import { Logo } from "@/components/logo"
 import { cn } from "@/lib/utils"
 
 const navigation = [
-  { name: "Practice", href: "/practice" },
   { name: "Blog", href: "/blog" },
+  { name: "T-Groups", href: "/t-groups" },
+  { name: "Practice", href: "/practice" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ]
