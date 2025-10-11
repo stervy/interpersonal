@@ -1,0 +1,27 @@
+{
+  "practices": [
+    {
+      "id": "1",
+      "title": "Authentic Relating Circle",
+      "organization": "Connection Lab",
+      "description": "A weekly practice space for deepening connection through authentic relating exercises and group facilitation. Open to all experience levels.",
+      "location": "San Francisco, CA",
+      "cadence": "Weekly on Thursdays, 7-9 PM",
+      "tags": ["Authentic Relating", "Group", "Weekly"],
+      "contact": "hello@connectionlab.org",
+      "website": "https://connectionlab.org"
+    },
+    {
+      "id": "2",
+      "title": "Couples Therapy Practice",
+      "organization": "Bay Area Relationship Center",
+      "description": "Evidence-based couples therapy using Gottman Method and Emotionally Focused Therapy (EFT). Specializing in communication, conflict resolution, and intimacy.",
+      "location": "Oakland, CA",
+      "cadence": "By appointment",
+      "tags": ["Therapy", "Couples", "1-on-1"],
+      "contact": "info@barelationships.com",
+      "website": "https://barelationships.com"
+    }
+  ]
+}
+
