@@ -38,7 +38,7 @@ export default function AboutPage() {
             <h2 className="font-serif text-3xl font-bold text-brand-ink">What We Offer</h2>
             <p>
               Our platform combines educational content with professional support to accelerate your
-              interpersonal skills development. Whether you're looking to improve active listening,
+              interpersonal skills development. Whether you&apos;re looking to improve active listening,
               navigate conflict more effectively, or build deeper relationships, we provide the tools
               and guidance you need.
             </p>
@@ -54,7 +54,7 @@ export default function AboutPage() {
             <h3 className="font-serif text-2xl font-semibold text-brand-ink">T-Groups & Experiential Learning</h3>
             <p>
               We curate information on intensive T-group programs (Training groups) that offer transformative
-              experiential learning. Compare programs like Stanford's T-Group, Leaders in Tech, Juncture, and 
+              experiential learning. Compare programs like Stanford&apos;s T-Group, Leaders in Tech, Juncture, and 
               NTL Institute to find the right intensive experience for accelerating your interpersonal skills development.
             </p>
 
@@ -67,9 +67,9 @@ export default function AboutPage() {
 
             <h2 className="font-serif text-3xl font-bold text-brand-ink">Get Involved</h2>
             <p>
-              We're building a community of people committed to developing their interpersonal skills.
-              Whether you're a therapist, coach, facilitator, or simply passionate about personal growth,
-              we'd love to connect with you.
+              We&apos;re building a community of people committed to developing their interpersonal skills.
+              Whether you&apos;re a therapist, coach, facilitator, or simply passionate about personal growth,
+              we&apos;d love to connect with you.
             </p>
 
             <div className="not-prose flex flex-col sm:flex-row gap-4 mt-8">
