@@ -40,7 +40,7 @@ export default function TGroupsPage() {
             </p>
             <div className="grid md:grid-cols-2 gap-4 mt-6">
               <div>
-                <h3 className="font-semibold mb-2">You'll Learn:</h3>
+                <h3 className="font-semibold mb-2">You&apos;ll Learn:</h3>
                 <ul className="space-y-1 text-sm text-muted-foreground">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="h-4 w-4 text-brand mt-0.5 flex-shrink-0" />

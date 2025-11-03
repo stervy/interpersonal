@@ -61,7 +61,7 @@ export default function HomePage() {
             <div className="p-6 rounded-2xl border bg-card">
               <h3 className="font-serif text-xl font-semibold mb-3">Emotional Intelligence</h3>
               <p className="text-muted-foreground">
-                Develop awareness of your emotions and others', improving your ability to navigate social situations with grace.
+                Develop awareness of your emotions and others&apos;, improving your ability to navigate social situations with grace.
               </p>
             </div>
             <div className="p-6 rounded-2xl border bg-card">
@@ -154,7 +154,7 @@ export default function HomePage() {
                   deep self-exploration.
                 </p>
                 <p className="text-muted-foreground mb-6">
-                  Programs like Stanford's T-Group, Leaders in Tech, and Juncture provide transformative 
+                  Programs like Stanford&apos;s T-Group, Leaders in Tech, and Juncture provide transformative 
                   experiences for developing emotional intelligence, authentic leadership, and group facilitation skills.
                 </p>
                 <Button asChild size="lg">
@@ -164,7 +164,7 @@ export default function HomePage() {
                 </Button>
               </div>
               <div className="bg-card rounded-2xl border p-6">
-                <h3 className="font-serif text-xl font-semibold mb-4">What You'll Gain:</h3>
+                <h3 className="font-serif text-xl font-semibold mb-4">What You&apos;ll Gain:</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <div className="h-6 w-6 rounded-full bg-brand-accent flex items-center justify-center flex-shrink-0 mt-0.5">

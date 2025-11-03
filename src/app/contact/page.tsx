@@ -18,7 +18,7 @@ export default function ContactPage() {
               Get in Touch
             </h1>
             <p className="text-lg text-muted-foreground">
-              Questions about T-groups, adding your practice to our directory, or collaborating? We'd love to hear from you.
+              Questions about T-groups, adding your practice to our directory, or collaborating? We&apos;d love to hear from you.
             </p>
           </div>
         </Container>

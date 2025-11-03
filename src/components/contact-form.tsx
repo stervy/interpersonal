@@ -47,7 +47,7 @@ export function ContactForm() {
       <CardHeader>
         <CardTitle>Contact Form</CardTitle>
         <CardDescription>
-          Fill out the form below and we'll get back to you as soon as possible.
+          Fill out the form below and we&apos;ll get back to you as soon as possible.
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -111,7 +111,7 @@ export function ContactForm() {
 
           {submitStatus === "success" && (
             <div className="rounded-2xl bg-brand-accent p-4 text-sm text-brand-ink">
-              Thank you for your message! We'll get back to you soon.
+              Thank you for your message! We&apos;ll get back to you soon.
             </div>
           )}
 
