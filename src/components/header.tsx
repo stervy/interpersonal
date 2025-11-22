@@ -10,6 +10,7 @@ const navigation = [
   { name: "Blog", href: "/blog" },
   { name: "T-Groups", href: "/t-groups" },
   { name: "Practice", href: "/practice" },
+  { name: "Simulations", href: "/simulations" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ]
