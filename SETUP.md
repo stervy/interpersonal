@@ -303,6 +303,8 @@ For local development, create `.env.local`:
 
 ```bash
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
+# Optional: for coming-soon email signup (Formspree form ID from https://formspree.io)
+NEXT_PUBLIC_FORMSPREE_EMAIL_SIGNUP_ID=your-form-id
 ```
 
 For production, set environment variables in your hosting platform (Vercel, etc.).
